@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Consolas";
+}
+
+.container {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.link {
+  color: unset;
+  text-decoration: unset;
+}
