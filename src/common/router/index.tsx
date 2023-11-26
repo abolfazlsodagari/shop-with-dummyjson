@@ -12,10 +12,10 @@ function RouterPages() {
     <div>
       <Router>
         <Routes>
-          <Route index element={<LazyRoute component={<HomePage />} />} />
+          <Route index element={<LazyRoute element={<HomePage />} />} />
           <Route
             path="products/:id"
-            element={<LazyRoute component={<SingleProduct />} />}
+            element={<LazyRoute element={<SingleProduct />} />}
           />
         </Routes>
       </Router>

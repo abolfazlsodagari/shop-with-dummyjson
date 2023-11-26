@@ -1,11 +1,11 @@
 import { Suspense } from "react";
 
 interface ILazyRoute {
-  component: React.ReactNode;
+  element: React.ReactNode;
 }
 
-const LazyRoute: React.FC<ILazyRoute> = ({ component }) => (
-  <Suspense>{component}</Suspense>
+const LazyRoute: React.FC<ILazyRoute> = ({ element }) => (
+  <Suspense>{element}</Suspense>
 );
 
 export default LazyRoute;

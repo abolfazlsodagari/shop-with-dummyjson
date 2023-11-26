@@ -36,7 +36,6 @@ const ProductThumbnail: React.FC<IProductThumbnailProps> = ({ data }) => {
       >
         <img src={data?.thumbnail} alt={data?.title} />
       </Stack>
-
       <Stack width="100%" height="100%">
         <FsLightbox toggler={toggleLightBox} sources={data?.images} />
       </Stack>
